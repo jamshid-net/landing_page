@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face{
+    font-family: Lato;
+    src: url(../../Font/lato/Lato-Regular.ttf);
+}
+
+
+.website{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    padding: 200px 0 118px 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/design.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+
+
+}
+.header h1{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+
+}
+.header .miniline{
+    
+    background-color: #ffffff;
+    
+    border: 0px none;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 23px;
+    height: 2px;
+    width: 58px;
+    
+    
+}
+.header p{
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+
+.musttext1{
+    margin-top: 65px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+
+
+}
+.musttext2{
+    margin-bottom: 36px;
+    margin-top: 22px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+}
+
+.services{
+    width: 100%;
+    height: auto;
+    
+   
+
+}
+
+.services_info{
+    width: 100%;;
+    display: flex;
+
+    
+
+
+
+}
+.info_text{
+    background:linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.349)),linear-gradient(to right,#9966cc,#d7813a);
+    padding: 235px 80px;
+    flex: 1;
+    text-align: center;
+
+}
+.info_text p{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.info_category{
+    background-color: #f9f9f9;
+    
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.info_category .fas{
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+}
+.category_box:hover .fas, .category_box:hover .fa, .category_box:hover p{
+    color: #333333;
+
+}
+.info_category .fa{
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+}
+.info_category p{
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #999999;
+
+}
+.category_box{
+    transition: all 0.2s ease;
+    
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.teambox{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+
+}
+
+.team_card{
+    margin: 0 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+}
+.team_card h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+.team_card h2{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+}
+.team_card p{
+    margin-top: 22px;
+    margin-bottom: 28px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.team_card .team_links i{
+    margin: 0 5px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    color: #cccccc;
+}
+.team_links i:hover{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #9966cc;
+}
+.team_links{
+    display: flex;
+    justify-content: center;
+}
+
+.team_img{
+    height: 250px;
+    width: 100%;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+
+}
+.team_img:hover{
+    background-size: 110%;
+
+}
+.team_card:nth-child(1) .team_img{
+    background-image: url(../../images/profile.png);
+}
+.team_card:nth-child(2) .team_img{
+    background-image: url(../../images/profile2.png);
+}
+.team_card:nth-child(3) .team_img{
+    background-image: url(../../images/profile3.png);
+}
+.team_card:nth-child(4) .team_img{
+    background-image: url(../../images/profile4.png);
+}
+
+
+.skills_info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+
+}
+
+.skills_text p{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+}
+.skills_text{
+    height: auto;
+    
+    width: 570px;
+}
+.skills_line{
+    margin-left: 38px;
+    width: 570px;
+    height: auto;
+}
+
+.skills_info_line{
+    border: 0px none;
+    border-radius:7px ;
+    margin-top: 10px;
+    width: 569px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+}
+
+.skills_info_line:nth-child(2){
+    background-image: url(../../images/80.png);
+}
+.skills_info_line:nth-child(4){
+    background-image: url(../../images/97.png);
+}
+.skills_info_line:nth-child(6){
+    background-image: url(../../images/65.png);
+}
+.skills_info_line:nth-child(8){
+    background-image: url(../../images/72.png);
+}
+.skills_info_line_text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 570px;
+    height: fit-content;
+    
+}
+.skills_info_line_text:nth-child(1){
+    margin-top: 0px;
+}
+.skills_info_line_text p{
+    font-family: Lato;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.just_picture{
+    
+    width: 1168px;
+    height: 657px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-image: url(../../images/meme.jpg);
+}
+
+
+.footer{
+    margin-top: 43px;
+    background:linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.349)),linear-gradient(to right,#280649,#411d01);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 100px;
+    align-items: center;
+    
+    height: auto;
+    
+
+    
+}
+.footer h1{
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.footer h2{
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 36px;
+}
+.footer p{
+    
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_icons{
+    margin-top: 30px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.icon_box{
+
+    height: 265px;
+    flex: 1;
+    display:flex;
+    margin: 10px 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon_box i{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transition: all 0.2s ease;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 48px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.icon_box i:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+.icon_box h1{
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.icon_box p{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}

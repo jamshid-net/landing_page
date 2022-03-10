@@ -1,0 +1,305 @@
+@media screen and (max-width:1387px){
+
+    .website{
+        max-width: 1387px;
+        width: 100%;
+
+
+    }
+    .header_inner_text h2 .fal{
+        margin: 0 50px;
+
+    }
+
+    .about{
+        padding: 0 150px;
+
+
+    }
+
+
+
+}
+@media screen and (max-width:1199.98px){
+
+    .website{
+        max-width: 1199.98px;
+        width: 100%;
+    }
+
+    .header_inner_text h2 .fal{
+        margin: 0 10px;
+
+    }
+    .header_inner_text h2{
+        font-size: 20px;
+    }
+    .about{
+        width: 100%;
+    }
+
+    .testimon{
+        width: 100%;
+        padding: 0 100px;
+
+    }
+    .testimon_logo{
+        width: 100%;
+    }
+    .vvv{
+        padding: 0 15px;
+    }
+    .vvv h4{
+        font-size: 13px;
+    }
+    .numbers p{
+        margin: 2px 25px;
+    }
+
+
+}
+
+@media screen and (max-width:991.98px){
+
+    .info__inner{
+        flex: 1;
+    }
+    .info__inner:nth-child(3){
+        flex: 1.5;
+    }
+    .info__inner:nth-child(2){
+        display: none;
+
+    }
+    .header h1{
+        margin-top: 30px;
+        
+
+    }
+
+    .header_inner_text p{
+       width: 100%;
+        
+
+    }
+    .works_img_inner{
+        height: 170px;
+    }
+
+    .vvv{
+        padding: 0 5px;
+
+    }
+    .vvv h4{
+        font-size: 10px;
+    }
+    .numbers p{
+        
+        font-size: 30px;
+        line-height: 25px;
+        margin: 2px 10px;
+
+    }
+    .numbers p span{
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:767.98px){
+
+    .info__inner:nth-child(1){
+        text-align: center;
+        padding: 0;
+        flex: 1;
+
+    }
+
+
+    .info__inner:nth-child(3){
+        flex: 1.3;
+        padding: 17px 2px;
+
+    }
+  
+    .info__inner:nth-child(3) p, .info__inner:nth-child(4) p{
+        font-size: 13px;
+
+    }
+
+    .info__inner:nth-child(3) p span, .info__inner:nth-child(4) p span{
+        font-size: 15px;
+    }
+
+
+    .navbar ul li a{
+        padding: 5px 10px;
+    }
+
+    .header_inner_text h2{
+        text-align: center;
+        font-size: 14px;
+    }
+    .header_inner_text p{
+        font-size: 13px;
+    }
+
+    .header_inner_text h2 .fal{
+        display: none;
+
+    }
+    .musttext1{
+        margin-top: 30px;
+
+    }
+
+
+    .about{
+        padding: 0 70px;
+
+
+    }
+    .vvv{
+        padding-top: 85px;
+        overflow-x: hidden;
+        overflow-y:scroll ;
+
+    }
+
+    .works_img_inner{
+        height: 135px;
+
+
+    }
+
+    .box .far{
+        padding: 20px;
+        font-size: 25px;
+    }
+    .box .fas{
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .header_inner_text h1{
+        font-size: 60px;
+    }
+
+
+
+}
+
+@media screen and (max-width:575.98px){
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .info__inner{
+        text-align: center;
+        border-bottom: 1px solid #e5e5e5;
+        width: 100%;
+    }
+    .info__inner:nth-child(3){
+        width: 100%;
+        padding: 17px 0;
+    }
+    .navbar{
+       
+        margin-bottom: -120px;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .navbar ul li {
+        margin: 5px 0;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid #e5e5e5;
+        width: 120px;
+    }
+    .header_inner_text h1{
+        font-size: 40px;
+    }
+
+    .about{
+        padding: 0 30px;
+
+
+    }
+
+
+    .about button{
+        padding: 10px 23px;
+        font-size: 14px;
+
+    }
+
+    .lorem i{
+        font-size: 23px;
+    }
+
+    .vvv h4{
+        font-size: 12px;
+        text-align: center;
+
+
+    }
+    .vvv p{
+        text-align: justify;
+        font-size: 8px;
+    }
+
+    .vvv{
+        padding-top: 80px;
+        overflow-x: hidden;
+        overflow-y:scroll ;
+
+    }
+
+    .works_img_inner{
+        height: 90px;
+
+
+    }
+
+    .icon_box{
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .box{
+        margin-top: 20px;
+    }
+
+    .testimon p{
+        height: 300px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        text-align: justify;
+        width: 300px;
+        padding: 0 10px;
+
+
+    }
+    .testimon {
+        width: 100%;
+    }
+
+
+    .footer h2{
+        line-height: 70px;
+
+
+
+    }
+
+}

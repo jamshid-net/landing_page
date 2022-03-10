@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../../Font/lato/Lato-Regular.ttf);
+}
+
+.website {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.website h1 {
+  margin-bottom: 23px;
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #333333;
+}
+
+.website p {
+  margin-bottom: 35px;
+  font-family: Georgia;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: italic;
+  color: #666666;
+}
+
+.website .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.website .address p {
+  margin: 0 36px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.website .address p span {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.website .background {
+  width: 100%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#17212B95), to(#17212B95)), url(../../images/contact.jpg);
+  background-image: linear-gradient(#17212B95, #17212B95), url(../../images/contact.jpg);
+  background-position: center center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.website h2 {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #666666;
+}
+
+.website .form {
+  height: auto;
+}
+
+.website .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.website .form form input {
+  padding: 12px 15px;
+  border: 1px solid #cbc8cb;
+  border-radius: 7px;
+  height: 35px;
+  margin-top: 30px;
+  width: 570px;
+}
+
+.website .form form input::-webkit-input-placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form input:-ms-input-placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form input::-ms-input-placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form input::placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form textarea {
+  padding: 12px 15px;
+  border: 1px solid #cbc8cb;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height: 113px;
+  outline: none;
+}
+
+.website .form form textarea::-webkit-input-placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form textarea:-ms-input-placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form textarea::-ms-input-placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form textarea::placeholder {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.website .form form button {
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 150px;
+  padding: 15px 55px;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+  border: 2px solid #9966cc;
+  border-radius: 30px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.website .form form button:hover {
+  background-color: #9966cc;
+  color: #fff;
+}
+
+.website .form form .name_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.website .form form .name_form input {
+  width: 270px;
+}
+
+.website .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #17212B;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 63px;
+  padding-bottom: 33px;
+  margin-top: 63px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.website .footer h1 {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.website .footer p {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #999999;
+  font-style: normal;
+}
+
+.website .footer .about_us_text {
+  margin-right: 33px;
+  width: 370px;
+}
+
+.website .footer .recent {
+  margin-right: 64px;
+  width: 370px;
+}
+
+.website .footer .recent .row_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.website .footer .recent .row_text p {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.website .footer .recent h4 {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #999;
+}
+
+.website .footer .recent h4 span {
+  color: #fff;
+}
+
+.website .footer .subscribe {
+  width: 370px;
+}
+
+.website .footer .subscribe input {
+  width: 370px;
+  height: 35px;
+  padding: 12px 15px;
+  border-radius: 7px;
+  border: 1px solid #cbc8cb;
+  margin-top: 33px;
+  margin-bottom: 37px;
+}
+
+.website .footer .subscribe button {
+  cursor: pointer;
+  padding: 14px 35px;
+  border-radius: 30px;
+  border: 1px solid #9966cc;
+  background-color: transparent;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.website .footer .subscribe button:hover {
+  background-color: #9966cc;
+  color: #17212B;
+}
+
+.website .copyright {
+  width: 100%;
+  height: 71px;
+  background-color: #19202A;
+  border-top: 1px solid #878787;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 27px 374px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.website .copyright p {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #999999;
+}
+
+.website .copyright p span {
+  font-size: 18px;
+}
+
+.website .copyright .links i {
+  margin: 0 3px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.website .copyright .links i:hover {
+  color: #9966cc;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .website {
+    width: 100%;
+  }
+  .website .footer {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .website .footer .about_us_text {
+    margin-right: 25px;
+    width: 300px;
+  }
+  .website .footer .recent {
+    width: 300px;
+    margin-right: 40px;
+  }
+  .website .footer .subscribe {
+    width: 300px;
+  }
+  .website .footer .subscribe input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .website {
+    width: 100%;
+  }
+  .website .footer {
+    padding: 5px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .website .footer .about_us_text {
+    margin-right: 18px;
+    width: 280px;
+  }
+  .website .footer .recent {
+    width: 280px;
+    margin-right: 25px;
+  }
+  .website .footer .subscribe {
+    width: 280px;
+  }
+  .website .footer .subscribe input {
+    width: 280px;
+  }
+  .website .copyright {
+    padding: 27px 200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .website .address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .website .address p {
+    margin-top: 10px;
+  }
+  .website .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0;
+  }
+  .website .footer .subscribe {
+    margin-top: 20px;
+    margin-right: 27px;
+  }
+  .website .copyright {
+    padding: 27px 100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .website p {
+    text-align: center;
+  }
+  .website .form form input {
+    width: 320px;
+  }
+  .website .form form textarea {
+    width: 320px;
+  }
+  .website .form form .name_form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .website .copyright {
+    padding: 27px 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

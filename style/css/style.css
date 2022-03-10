@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face{
+    font-family: Lato;
+    src: url(../../Font/lato/Lato-Regular.ttf);
+
+
+
+}
+@font-face{
+    font-family: Anders;
+    src: url(../../Font/anders/Anders.ttf);
+
+}
+
+.website{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgba(255,255,255,0.0);
+background-image: linear-gradient(145.0deg, rgba(153,102,204,0.8) 19%, rgba(225,133,34,0.8) 80%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 240px;
+
+}
+
+.info{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(226,226,220,0.49);
+    display: flex;
+
+
+}
+.info__inner{
+    
+    height: 100%;
+    /* flex: 1; */
+    
+
+}
+.info__inner:nth-child(3){
+    width: fit-content;
+    padding: 17px 20px;
+}
+.info__inner:nth-child(3) p, .info__inner:nth-child(4) p{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e5e5e5;
+}
+
+.info__inner:nth-child(3) p span, .info__inner:nth-child(4) p span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+
+
+}
+
+
+
+.info__inner .fab{
+    margin-right: 5px;
+    line-height: 55px;
+}
+.info__inner:nth-child(1){
+    text-align: right;
+    padding-right: 10px;
+    
+    font-size: 19.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e5e5e5;
+    flex: 2;
+}
+.info__inner:nth-child(2){
+    flex: 1.2;
+}
+.info__inner:nth-child(4){
+    padding: 17px 20px;
+    flex: 1.5;
+}
+.header h1{
+    margin-top: 55px;
+    text-align: center;
+    font-family: Anders;
+    font-size: 41px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+
+}
+.navbar{
+    margin-top: 25px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar ul li a{
+    padding: 5px 20px;
+    display: block;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e5e5e5;
+    transition: all 0.3s ease;
+
+}
+.navbar ul li a:hover{
+    color: #ffffff;
+    font-size: 17px;
+
+}
+.header_inner_text{
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header_inner_text h2 .fal{
+
+    margin: 0 100px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #cccccc;
+
+}
+.header_inner_text h1{
+    font-family: Lato;
+    
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+
+}
+.header_inner_text h2{
+    
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+.header_inner_text p{
+    align-self: center;
+    font-family: Lato;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    width: 895px;
+
+
+}
+
+.header_inner_text button{
+    padding:14px 30px ;
+    background-color: transparent;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+    }
+    .header_inner_text button:hover{
+        background-color: #ffffff;
+        color: #D9976B;
+        font-weight: 600;
+    }  
+
+
+
+.about{
+    padding-top: 70px;
+    width: 1175px;
+    margin: 0 auto;
+    height: auto;
+
+}
+.musttext1{
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+
+}
+
+.musttext2{
+    margin-top: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+
+
+
+}
+
+.about p{
+    text-align: center;   
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 70px;
+    
+
+}
+
+
+.lorem h2{
+
+    display: inline-block;
+    margin-left: 15px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+
+
+}
+.lorem p{
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+
+
+
+}
+.lorem i{
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #9966cc;
+}
+.about button{
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    transition: all 0.2 ease;
+    border: 2px solid #9966cc;
+}
+.about button:hover{
+    background-color: #9966cc;
+    color: #ffffff;
+
+
+}
+
+.works{
+    width: 100%;
+    height: auto;
+
+
+
+
+
+}
+
+.works ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.works ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 14px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#666666;
+    transition: all 0.2s ease;
+
+
+}
+.works ul li a:hover{
+    color: #9966cc;
+    font-weight: 700;
+
+
+}
+
+.works_i{
+    
+    height: auto;
+    width: 100%;
+
+
+
+}
+.works_img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.works_img_inner{
+    position: relative;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    transition: all 0.6s ease;
+    height: 213px;
+    visibility: visible;
+}
+.works_img_inner h4, .works_img_inner p{
+    color: #fff;
+    text-align: center;
+}
+.vvv h4{
+    font-size: 16px;
+}
+
+
+.works_img_inner:hover .vvv{
+    visibility: visible;
+    opacity: 1;
+    
+   
+   
+}
+
+.vvv{
+    display: flex;
+    padding: 0 45px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #9966ccbe;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: all 0.2s ease;
+
+
+}
+
+.works_img:nth-child(1) .works_img_inner:nth-child(1){
+    background-image:url(../../images/1.\ 20210923Ahmanson-06.jpg) ;
+    
+}
+.works_img:nth-child(1) .works_img_inner:nth-child(2){
+    background-image: url(../../images/2.\ 20210923Anderson-Gardens11.jpg);
+    
+}
+.works_img:nth-child(1) .works_img_inner:nth-child(3){
+    background-image: url(../../images/3.\ 20210923b5c5dcd3adf1c355625e2226338d3b4e.jpg);
+    
+}
+.works_img:nth-child(1) .works_img_inner:nth-child(4){
+    background-image: url(../../images/4.\ 20210923bungendore-wood-works.jpg);
+    
+}
+.works_img:nth-child(1) .works_img_inner:nth-child(5){
+    background-image:url(../../images/5.\ 20210923bungendore-wood-works-gallery-nsw-canberra-day-tri41.jpg) ;
+    
+}
+.works_img:nth-child(1) .works_img_inner:nth-child(6){
+    background-image: url(../../images/6.\ 20210923caption.jpg);
+    
+}
+.works_img:nth-child(2) .works_img_inner:nth-child(1){
+    background-image: url(../../images/7.\ 20210923jigsnsaws--1581463376790.webp);
+    
+}
+.works_img:nth-child(2) .works_img_inner:nth-child(2){
+    background-image: url(../../images/8.\ 20210923place-2018-02-17-3-a62ba545ca1029fd6d227795ee902850.jpg);
+    
+}
+.works_img:nth-child(2) .works_img_inner:nth-child(3){
+    background-image: url(../../images/9.\ 20210923Solar_mirror1_2015-04-21-20-27-03.jpg);
+    
+}
+.works_img:nth-child(2) .works_img_inner:nth-child(4){
+    background-image:url(../../images/10.\ 20210923Timber-Floors.jpg) ;
+    
+}
+.works_img:nth-child(2) .works_img_inner:nth-child(5){
+    background-image: url(../../images/11.\ 20210923Tolga-Wood-Works-9.jpg);
+    
+}
+.works_img:nth-child(2) .works_img_inner:nth-child(6){
+    background-image: url(../../images/12.\ 20210923unnamed.jpg);
+    
+}
+.works_img:nth-child(3) .works_img_inner:nth-child(1){
+    background-image: url(../../images/13.\ 20210923unnamed\ \(1\).jpg);
+    
+}
+.works_img:nth-child(3) .works_img_inner:nth-child(2){
+    background-image: url(../../images/14.\ 20210923163b9fad4313c6cce3700f3a6856d1e6--hardwood-furniture-fine-woodworking.jpg);
+    
+}
+.works_img:nth-child(3) .works_img_inner:nth-child(3){
+    background-image:url(../../images/15.\ 20210923436dcb3739923efd381e5dd44d839220.jpg) ;
+    
+}
+.works_img:nth-child(3) .works_img_inner:nth-child(4){
+    background-image: url(../../images/16.\ 202109236687aed9eba29a391426f8fbaaf43fbf16513353_1200x.jpg);
+    
+}
+.works_img:nth-child(3) .works_img_inner:nth-child(5){
+    background-image: url(../../images/17.\ 202109238873785a83715485b4699ed8fca74b28_-western-australia-city-of-albany-youngs-siding-south-coast-woodworks-gallery-08-9845-2028html.jpg);
+    
+}
+.works_img:nth-child(3) .works_img_inner:nth-child(6){
+    background-image: url(../../images/18.\ 2021092326389051_web1_210909-OMH-Parkside-Woodworkers-_3.jpg);
+    
+}
+
+.box .far{
+    border: 2px solid #9966cc;
+    padding: 27px;
+    border-radius: 50%;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #9966cc;
+    transition: all .2s ease;
+}
+.box .far:hover{
+    color: #fff;
+    background-color: #9966cc;
+}
+.box .fas{
+    border: 2px solid #9966cc;
+    padding: 27px;
+    border-radius: 50%;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #9966cc;
+    transition: all .2s ease;
+}
+.box .fas:hover{
+    color: #fff;
+    background-color: #9966cc;
+}
+.icon_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 64px;
+    height: auto;
+}
+.box{
+    padding: 0 20px;
+    text-align: center;
+    width: 265px;
+}
+.box h2{
+    margin: 40px 0;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.box p{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #b1b1b1;
+}
+
+.testimon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1240px;
+}
+
+.testimon p{
+    margin-top: 50px;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: #666666;
+}
+.testimon_profile{
+    align-items: center;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.testimon_profile_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(../../images/pexels-photo-771742.png);
+    background-size: cover;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.testimon_profile h4{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    
+    color: #333333;
+}
+.testimon_profile h4 span{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+}
+
+.testimon_logo{
+    height: auto;
+    width: 1150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.logo_img:nth-child(1){
+    background-image: url(../../images/logo/logo_1_16131.png);
+    
+}
+.logo_img:nth-child(2){
+    background-image: url(../../images/logo/logo_2_16237.png);
+    
+}
+.logo_img:nth-child(3){
+    background-image: url(../../images/logo/logo_3_16238.png);
+    
+}
+.logo_img:nth-child(4){
+    background-image: url(../../images/logo/logo_4_16239.png);
+    
+}
+.logo_img:nth-child(5){
+    background-image: url(../../images/logo/logo_5_16240.png);
+    
+}
+.logo_img:nth-child(6){
+    background-image: url(../../images/logo/logo_6_16242.png);
+    
+}
+.logo_img{
+    flex: 1;
+    height: 100px;
+    background-size: 50%;
+    padding:20px;
+    transition: all 0.3s ease;
+    background-repeat: no-repeat;
+    margin-bottom: 65px;
+    background-position: center center;
+}
+.logo_img:hover{
+    filter: sepia(100%);
+    background-size: 55%;
+
+
+}
+
+.footer{
+    width: 100%;
+    background-color: #9966cc;
+    height: auto;
+
+}
+.footer h2{
+    font-family: Lato;
+    font-size: 36px;
+    line-height: 130px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 18px;
+    
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.numbers{
+    height: auto;
+    display: flex;
+    margin: 0px auto;
+    padding: 70px 0;
+    
+    width:fit-content ;
+
+
+}
+.numbers p{
+    font-style: normal;
+    font-family: Lato;
+    font-size: 60px;
+    margin: 5px 50px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+.numbers p span{
+    font-family: Lato;
+    font-size: 18px;
+    
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+
+}

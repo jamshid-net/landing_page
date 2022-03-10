@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AAGH,UAAU;EACR,WAAW,EAAE,oBAAoB;EACjC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,YAAY,ECqCY,KAAK;EDpC7B,GAAG,EAAE,oCAAyC,CAAC,eAAe,EAC5D,mCAAwC,CAAC,cAAc,EACvD,kCAAuC,CAAC,kBAAkB;;;AAG9D,AAAA,IAAI;AACJ,QAAQ,CAAC;EACP,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "thin.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "thin.css"
+}

@@ -1,0 +1,525 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Lato;
+    src: url(../../Font/lato/Lato-Regular.ttf);
+
+
+}
+
+
+.website{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        margin-bottom: 23px;
+        font-family: Lato;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #333333;
+
+    }
+    p{
+        
+        margin-bottom: 35px;
+        font-family: Georgia;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400;
+        font-style: italic;
+        color: #666666;
+    }
+    .address{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        p{
+            margin: 0 36px;
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #999999;
+            span{
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #999999;
+            }
+
+        }
+
+
+
+
+    }
+
+    .background{
+        width: 100%;
+        height: 400px;
+        background-image:linear-gradient(#17212B95,#17212B95),url(../../images/contact.jpg);
+        background-position: center center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    h2{
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #666666;
+    }
+
+    .form{
+        height: auto;
+        form{
+            
+            display: flex;
+            flex-direction: column;
+            input{
+                padding: 12px 15px;
+                border: 1px solid #cbc8cb;
+                border-radius: 7px;
+                height: 35px;
+                margin-top: 30px;
+                width: 570px;
+            }
+            input::placeholder{
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 400;
+                color: #cccccc;
+            }
+            
+            textarea{
+                padding: 12px 15px;
+                border: 1px solid #cbc8cb;
+                border-radius: 7px;
+                margin-top: 30px;
+                margin-bottom: 40px;
+                height: 113px;
+                outline: none;
+            }
+            textarea::placeholder{
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 400;
+                color: #cccccc;
+
+            }
+            button{
+                cursor: pointer;
+                
+                align-self: center;
+                width: 150px;
+                padding: 15px 55px;
+                font-family: Lato;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #333333;
+                border: 2px solid #9966cc;
+                border-radius: 30px;
+                transition: all 0.2s ease;
+
+            }
+            button:hover{
+                background-color: #9966cc;
+                color: #fff;
+            }
+
+            .name_form{
+                display: flex;
+                justify-content: space-between;
+                input{
+                    width: 270px;
+                }
+
+                
+            }
+
+        }
+        
+
+
+    }
+
+    .footer{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        background-color: #17212B;
+        flex-wrap: wrap;
+        padding-top: 63px;
+        padding-bottom: 33px;
+        margin-top: 63px;
+        justify-content: center;
+        
+        h1{
+            font-family: Lato;
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+
+        p{
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #999999;
+            font-style: normal;
+        }
+
+        .about_us_text{
+            margin-right: 33px;
+            width: 370px;
+           
+
+        }
+       
+        .recent{
+            margin-right: 64px;
+            width: 370px;
+            .row_text{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                p{
+                    font-family: Lato;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    color: #ffffff;
+                }
+            }
+
+            h4{
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 400;
+                color: #999;
+                span{
+                    color: #fff;
+                }
+            }
+
+        }
+
+        .subscribe{
+            width: 370px;
+
+            input{
+                width: 370px;
+                height: 35px;
+                padding: 12px 15px;
+                border-radius: 7px;
+                border: 1px solid #cbc8cb;
+                margin-top: 33px;
+                margin-bottom: 37px;
+            }
+            button{
+                cursor: pointer;
+                padding: 14px 35px;
+                border-radius: 30px;
+                border: 1px solid #9966cc;
+                background-color: transparent;
+                font-family: Lato;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #ffffff;
+                transition: all 0.2s ease;
+
+            }
+            button:hover{
+                background-color: #9966cc;
+                color: #17212B;
+            }
+
+
+
+        }
+
+
+    }
+
+    .copyright{
+        width: 100%;
+        height: 71px;
+        background-color: #19202A;
+        border-top:1px solid #878787;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 27px 374px;
+        justify-content: space-between;
+        p{
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #999999;
+            span{
+                font-size: 18px;
+            }
+        }
+        .links{
+            i{
+                margin: 0 3px;
+                font-size: 20px;
+                line-height: 1.2;
+                font-weight: 400;
+                color: #ffffff;
+                transition: all .2s ease;
+                cursor: pointer;
+            }
+            i:hover{
+                color: #9966cc;
+
+            }
+
+        }
+        
+
+    }
+
+    
+
+
+
+}
+
+
+@media screen and (max-width:1199.98px)
+{
+    .website
+    
+    {
+        width: 100%;
+
+        .footer
+        {
+            flex-wrap: nowrap;
+
+
+            .about_us_text
+            {
+                margin-right: 25px;
+                width: 300px;
+
+            }
+
+            .recent
+            {
+                width: 300px;
+                margin-right: 40px;
+
+
+            }
+
+            .subscribe
+            {
+
+                width: 300px;
+                input
+                {
+                    width: 300px;
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+
+
+    
+}
+@media screen and (max-width:991.98px)
+{
+    .website
+    
+    {
+        width: 100%;
+
+        .footer
+        {
+            padding: 5px;
+            flex-wrap: nowrap;
+
+
+            .about_us_text
+            {
+                margin-right: 18px;
+                width: 280px;
+
+            }
+
+            .recent
+            {
+                width: 280px;
+                margin-right: 25px;
+
+
+            }
+
+            .subscribe
+            {
+
+                width: 280px;
+                input
+                {
+                    width: 280px;
+                }
+
+            }
+
+
+        }
+
+        .copyright
+        {
+            padding: 27px 200px;
+           justify-content: space-around;
+
+        }
+
+
+
+
+    }
+
+    
+
+    
+
+
+
+}
+@media screen and (max-width:767.98px)
+{
+    .website
+    {
+        .address
+        {
+                flex-direction: column;
+                
+                align-items: flex-start;
+                p
+                {
+                    margin-top: 10px;
+                }
+
+        } 
+
+
+        .footer
+        {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+
+            .subscribe{
+                margin-top: 20px;
+                margin-right: 27px;
+            }
+
+
+        }
+
+        .copyright
+        {
+            padding: 27px 100px;
+           justify-content: space-around;
+
+        }
+
+
+    }
+
+
+
+}
+@media screen and (max-width:575.98px)
+{
+    .website
+    {
+        p
+        {
+            text-align: center;
+
+
+        }
+
+        .form
+        {
+
+
+            form 
+            {
+
+                input 
+                {
+                    width: 320px;
+                }
+
+                textarea 
+                {
+                    width: 320px;
+                }
+
+                .name_form 
+                {
+                    flex-direction: column;
+
+                }
+            }
+
+        }
+
+
+        .copyright
+        {
+            padding: 27px 20px;
+           justify-content: space-around;
+
+        }
+
+
+
+
+    }
+
+
+
+
+}

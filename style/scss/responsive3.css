@@ -1,0 +1,90 @@
+@media screen and (max-width: 1199.98px) {
+  .website {
+    width: 100%;
+  }
+  .website .price {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .website .price .price_box {
+    padding: 45px 40px;
+    margin: 42px 8px 65px 8px;
+  }
+  .website .info_box .right_info {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .website .blog_post {
+    padding: 0 80px;
+  }
+  .website .blog_post .blog_post_inner .blog_post_box {
+    width: 330px;
+  }
+  .website .blog_post .blog_post_inner .blog_post_box .blog_post_box_img {
+    width: 330px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .website {
+    width: 100%;
+  }
+  .website .price {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .website .price .price_box {
+    padding: 45px 40px;
+    margin: 42px 8px 65px 8px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .website .info_box .left_info .left_info_inner {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .website .info_box .left_info .left_info_inner p {
+    margin-right: 10px;
+  }
+  .website .info_box .left_info .left_info_open p {
+    width: 300px;
+  }
+  .website .info_box .right_info {
+    width: 320px;
+  }
+  .website .info_box .right_info .head_page .head_inner {
+    width: 105px;
+  }
+  .website .info_box .right_info .right_info_text {
+    width: 320px;
+  }
+  .website .info_box .left_info .left_info_open {
+    width: 320px;
+  }
+  .website .info_box .left_info .left_info_open .left_info_inner2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 320px;
+  }
+  .website .footer p {
+    text-align: center;
+  }
+  .website .footer .fab {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 23px;
+    margin: 0 8px;
+  }
+}
+/*# sourceMappingURL=responsive3.css.map */
